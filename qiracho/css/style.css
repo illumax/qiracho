@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+.navbar-brand
+    {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.qiracho-logo {
+  font-size: 2rem;
+  font-family: 'Bangers', cursive;
+}
+
+.container-fluid {
+  position: relative;
+  padding: 0;
+}
+
+#carouselExampleIndicators {
+  font-family: 'Bangers', cursive;
+  position: absolute;
+  top: 130%;
+  left: 20%;
+  background-color: #ffffff;
+  color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 60%;
+}
+
+#slogan {
+  font-family: 'Bangers', cursive;
+  position: absolute;
+  top: 18%;
+  left: 10%;
+  background-color: #dc3545;
+  color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 30%;
+}
+
+.carousel-caption {
+  color: #ffffff;
+  background-color: #dc3545;
+  border-radius: 1rem;
+}
+
+.info-block {
+  font-family: 'Bangers', cursive;
+  height: 70vh;
+}
+
+h1.page-title {
+  font-size: 5rem;
+  color: #dc3545;
+  font-family: 'Bangers', cursive;
+}
+
+.imgs {
+  width: 100%;
+}
+
+footer {
+  margin: 1rem 0;
+  padding: 0;
+}
